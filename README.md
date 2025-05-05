@@ -11,24 +11,24 @@ It achieves **92% accuracy** on the training set using only:
 
 ---
 
-## 🔥 Why this project matters
+##  Why this project matters
 Most tutorials use TensorFlow or PyTorch. But building everything from scratch using NumPy gives you a **deep understanding** of how neural networks work under the hood.
 
 If you're a student, beginner, or someone who wants to master ML fundamentals — this is for you.
 
 ---
 
-## 📁 Dataset
+##  Dataset
 We use the **Digit Recognizer** dataset from Kaggle:
 - **Train:** 42,000 labeled digit images (28x28 grayscale)
 - **Test:** 28,000 unlabeled digit images
 
-### 🧠 Target:
+###  Target:
 Train a neural network to classify digits (0–9).
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 | Layer         | Details                    |
 |---------------|-----------------------------|
 | Input         | 784 neurons (28x28 pixels) |
@@ -37,7 +37,7 @@ Train a neural network to classify digits (0–9).
 
 ---
 
-## 🚀 How to Run (Locally)
+##  How to Run (Locally)
 
 1. Clone this repo:
 ```bash
@@ -61,14 +61,14 @@ python train_model.py  # or open notebook.ipynb
 
 ---
 
-## 📊 Results
-- ✅ Accuracy: **92% on training set**
-- 🧪 Generalizes well with very little overfitting
-- 🔍 Each digit can be visualized and tested using the `test_prediction()` function
+##  Results
+-  Accuracy: **92% on training set**
+-  Generalizes well with very little overfitting
+-  Each digit can be visualized and tested using the `test_prediction()` function
 
 ---
 
-## 📸 Sample Predictions
+##  Sample Predictions
 ```python
 test_prediction(index=13, W1, B1, W2, B2)
 ```
@@ -76,7 +76,7 @@ Shows the image and prints predicted vs actual label.
 
 ---
 
-## 📌 Key Learnings
+##  Key Learnings
 | Mistake | Fix |
 |--------|-----|
 | No mini-batch training | Added batch size = 64 |
@@ -86,19 +86,19 @@ Shows the image and prints predicted vs actual label.
 
 ---
 
-## 🧠 Author
+##  Author
 - **Nouhid Siddiqui**  
 - GitHub: [Nouhid665](https://github.com/Nouhid665)
 
 ---
 
-## 📌 To Do
+##  To Do
 - [ ] Add evaluation on test set
 - [ ] Export predictions to CSV for Kaggle submission
 - [ ] Try adding another hidden layer
 
 ---
 
-## 📄 License
+##  License
 This project is open-source and free to use. No frameworks. Pure learning.
 
